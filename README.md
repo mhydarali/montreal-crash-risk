@@ -7,7 +7,7 @@ This project asks:
 
 **How can we detect high-risk crash conditions early enough to prioritize prevention resources and reduce severe outcomes?**
 
-## Executive Summary (Non-Technical)
+## Executive Summary
 This project built a recall-first machine learning pipeline to flag severe/fatal crash risk from pre-crash context (time, location, weather, road conditions). In the executed notebook results, the selected tuned Logistic Regression model reached **0.9398 recall** for severe/fatal events, making it suitable as an early-warning prioritization layer for policy and operations.
 
 Detailed brief: `docs/executive_summary.md`
