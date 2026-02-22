@@ -1,0 +1,25 @@
+image_id,cell_index,output_index,filename,relative_path,description
+1,10,0,01_part3_target_distribution.png,assets/images/notebook/01_part3_target_distribution.png,Target severity distribution
+2,11,1,02_part3_eda_overview.png,assets/images/notebook/02_part3_eda_overview.png,EDA multi-panel severity patterns
+3,13,1,03_part4_feature_selection.png,assets/images/notebook/03_part4_feature_selection.png,Feature selection and ranking
+4,15,1,04_part5_model_comparison.png,assets/images/notebook/04_part5_model_comparison.png,Baseline model comparison
+5,17,1,05_part6_logistic_tuning.png,assets/images/notebook/05_part6_logistic_tuning.png,Logistic regression tuning
+6,18,1,06_part6_tree_tuning.png,assets/images/notebook/06_part6_tree_tuning.png,Decision tree tuning
+7,20,1,07_part6_final_model_comparison.png,assets/images/notebook/07_part6_final_model_comparison.png,Final model selection comparison
+8,20,3,08_part6_logistic_coefficients.png,assets/images/notebook/08_part6_logistic_coefficients.png,Logistic regression coefficients
+9,20,5,09_part6_shap_analysis.png,assets/images/notebook/09_part6_shap_analysis.png,SHAP feature importance
+10,20,7,10_part6_performance_radar.png,assets/images/notebook/10_part6_performance_radar.png,Final model performance radar
+11,22,0,11_part7_cv_validation.png,assets/images/notebook/11_part7_cv_validation.png,Cross-validation stability
+12,24,1,12_part8_geographic_risk.png,assets/images/notebook/12_part8_geographic_risk.png,Geographic risk analysis
+13,26,1,13_part9_severity_recommendations.png,assets/images/notebook/13_part9_severity_recommendations.png,Collision class severity analysis
+14,28,1,14_part10_exec_summary_dashboard.png,assets/images/notebook/14_part10_exec_summary_dashboard.png,Executive summary dashboard
+15,30,0,15_part10_recommendation_01.png,assets/images/notebook/15_part10_recommendation_01.png,Recommendation 1 card
+16,30,1,16_part10_recommendation_02.png,assets/images/notebook/16_part10_recommendation_02.png,Recommendation 2 card
+17,30,2,17_part10_recommendation_03.png,assets/images/notebook/17_part10_recommendation_03.png,Recommendation 3 card
+18,30,3,18_part10_recommendation_04.png,assets/images/notebook/18_part10_recommendation_04.png,Recommendation 4 card
+19,30,4,19_part10_recommendation_05.png,assets/images/notebook/19_part10_recommendation_05.png,Recommendation 5 card
+20,30,5,20_part10_recommendation_06.png,assets/images/notebook/20_part10_recommendation_06.png,Recommendation 6 card
+21,30,6,21_part10_recommendation_07.png,assets/images/notebook/21_part10_recommendation_07.png,Recommendation 7 card
+22,30,7,22_part10_recommendation_08.png,assets/images/notebook/22_part10_recommendation_08.png,Recommendation 8 card
+23,30,8,23_part10_recommendation_09.png,assets/images/notebook/23_part10_recommendation_09.png,Recommendation 9 card
+24,30,9,24_part10_recommendation_10.png,assets/images/notebook/24_part10_recommendation_10.png,Recommendation 10 card

@@ -1,0 +1,72 @@
+{
+  "source_notebook": "notebooks/road_collisions_classification.ipynb",
+  "baseline_model_metrics": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.5508,
+      "precision": 0.0192,
+      "recall": 0.5528,
+      "f1_score": 0.037,
+      "roc_auc": 0.5715,
+      "stage": "baseline"
+    },
+    {
+      "model": "Decision Tree",
+      "accuracy": 0.9827,
+      "precision": 0.0145,
+      "recall": 0.0016,
+      "f1_score": 0.0029,
+      "roc_auc": 0.5164,
+      "stage": "baseline"
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9783,
+      "precision": 0.0123,
+      "recall": 0.0049,
+      "f1_score": 0.007,
+      "roc_auc": 0.515,
+      "stage": "baseline"
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9829,
+      "precision": 0.0161,
+      "recall": 0.0016,
+      "f1_score": 0.003,
+      "roc_auc": 0.5417,
+      "stage": "baseline"
+    }
+  ],
+  "final_selected_model": {
+    "model": "Logistic Regression (Tuned GridSearchCV)",
+    "accuracy": 0.0888,
+    "precision": 0.0159,
+    "recall": 0.9398,
+    "f1_score": 0.0312,
+    "roc_auc": 0.5715,
+    "stage": "final_selected"
+  },
+  "cross_validation_summary": {
+    "accuracy": {
+      "mean": 0.599,
+      "std": 0.0023
+    },
+    "precision": {
+      "mean": 0.5909,
+      "std": 0.0023
+    },
+    "recall": {
+      "mean": 0.6436,
+      "std": 0.003
+    },
+    "f1_score": {
+      "mean": 0.6161,
+      "std": 0.0021
+    }
+  },
+  "class_imbalance": {
+    "severe_or_fatal_count": 2049,
+    "severe_or_fatal_pct": 1.5617
+  }
+}
